@@ -24,7 +24,7 @@ def literal_aoh
     PAT_M,
     KATE_G,
     BRUCE_G]
-  p jesters
+  jesters
 end
 
 def aoh_lookup(aoh, row, key)
