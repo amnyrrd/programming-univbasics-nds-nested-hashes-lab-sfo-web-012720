@@ -18,8 +18,13 @@ def assembled_aoh
 end
 
 def literal_aoh
-  # Using Array literal syntax only, build a nested array that uses the data in
-  # held in the constants
+  jesters = [
+    DON_G,
+    JOELLE_VD,
+    PAT_M,
+    KATE_G,
+    BRUCE_G]
+  jesters
 end
 
 def aoh_lookup(aoh, row, key)
